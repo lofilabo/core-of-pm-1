@@ -2,11 +2,11 @@
 /*
 # but do not ignore the .gitignore file
 !.gitignore
-
+!./readme.md
 # do not ignore some dir (needed due to the above bullet point)
 !/apps
 !/plugins
-
+!/lib
 
 
 
