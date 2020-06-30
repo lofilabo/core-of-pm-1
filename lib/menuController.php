@@ -335,8 +335,11 @@ class menuController
   }
   
   public function buildUpgradeToExtendedMenu()
-	{
-     return array('title'=>'qdPM Extended','url'=>'http://qdpm-ex.com/','target'=>'_blnak',
+  {
+
+        return array();
+
+	  return array('title'=>'qdPM Extended','url'=>'http://qdpm-ex.com/','target'=>'_blnak',
                   'class'=>'fa-level-up',
                  'submenu'=>array(                    
                     array('title'=>'See qdPM Extended Features','url'=>'http://qdpm-ex.com/features.php','target'=>'_blnak'),                       
