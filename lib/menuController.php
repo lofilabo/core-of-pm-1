@@ -147,6 +147,7 @@ class menuController
     $is_hr = false;
     
     $s[] = array('title'=>__('Do A Thing'),'url'=>'things/index','is_hr'=>$is_hr);
+    $s[] = array('title'=>__('View General Contacts'),'url'=>'respcontacts/index','is_hr'=>$is_hr);
   
     return array('title'=>__('My Menu'),'url'=>'things/index','submenu'=>$s,'class'=>'fa-bell');
   }

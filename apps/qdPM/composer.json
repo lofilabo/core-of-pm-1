@@ -1,0 +1,9 @@
+{
+    "require": {
+        "symfony/console": "^5.1"
+    },
+
+    "require": {
+        "doctrine/orm": "*"
+    }
+}
